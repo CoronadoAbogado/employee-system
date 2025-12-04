@@ -11,7 +11,7 @@ class Developer(name: String,   salary:Double) : Employee(name,salary) {
     }
 
     override fun evaluatePerformance(){
-
+        println("Empleado con puesto de trabajo: developer con nombre $name y con salario $salary ha hecho un gran trabajo")
     }
 
 }

@@ -1,5 +1,7 @@
 package Empleados
 
+import Interfaz.Evaluable
+
 open abstract class Employee(val name: String, var salary: Double): Evaluable {
 
 
@@ -9,7 +11,5 @@ open abstract class Employee(val name: String, var salary: Double): Evaluable {
             println("Nombre $name salario $salary")
         }
 
-    override fun evaluatePerformance() {
-        println("Eres un lumbreras")
-    }
+
     }
